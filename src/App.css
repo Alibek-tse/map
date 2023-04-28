@@ -1,0 +1,33 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.map-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.esri-ui .esri-ui-corner  {
+  position: absolute;
+}
+
+.esri-view-surface {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.esri-popup {
+  z-index: 1000;
+}
